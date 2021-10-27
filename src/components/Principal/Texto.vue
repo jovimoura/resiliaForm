@@ -43,7 +43,7 @@ export default {
 
     h1 {
         font-family: 'Archivo', sans-serif;
-        font-size: 43px;
+        font-size: 2.7rem;
         font-weight: bolder;
         margin:1.5rem 0
     }
@@ -51,9 +51,26 @@ export default {
     p {
         color:#707070;
         font-family: 'Archivo', sans-serif;
+        font-size: 17px;
     }
 
-    #figura {
-        
+    b {
+        color:#0b0b0b
+    }
+    
+
+    @media(max-width:974px){
+
+        #figura {
+            display: none;
+        }
+
+        main {
+            width: 95%;
+        }
+
+        h1,p{
+            text-align: center;
+        }
     }
 </style>

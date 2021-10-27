@@ -82,7 +82,7 @@ export default {
 
     h2 {
         font-family: 'Archivo', sans-serif;
-        font-size: 43px;
+        font-size: 2.7rem;
         font-weight: bolder;
         margin:1.5rem 0
     }
@@ -100,6 +100,7 @@ export default {
         box-shadow: 0px 0px 40px -4px rgb(0 0 0 / 30%);
         padding:3rem 1.8rem ;
         text-align: left;
+        margin-bottom: 2rem
     }
 
     #inputs div {
@@ -165,7 +166,23 @@ export default {
         transform: scale(1.1)
     }
 
-    @media screen {
-        
+    
+    
+    @media(max-width:768px){
+
+        main {
+            flex-direction: column;
+        }
+    }
+
+    @media(max-width:974px){
+
+        main {
+            flex-direction: column;
+        }
+
+        form {
+            width: 90%;
+        }
     }
 </style>
