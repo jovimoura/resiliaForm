@@ -103,11 +103,16 @@ export default {
         margin-bottom: 2rem
     }
 
+    #inputs {
+        width:100%
+    }
+
     #inputs div {
         display: flex;
         justify-content: center;
         flex-direction: column;
         margin: 1rem;
+        
     }
 
     label {
@@ -126,6 +131,7 @@ export default {
         border: 2px solid transparent;
         border-radius: 10px ;
         font-size: 15px;
+        
     }
 
     input[type=text] {
@@ -146,6 +152,7 @@ export default {
 
     p,input,select,label {
         font-family: 'Archivo', sans-serif;
+        font-size: 1.1rem;
     }
 
     button {
@@ -153,7 +160,7 @@ export default {
         border:2px solid transparent;
         border-radius:12px;
         padding: .8rem 4.5rem;
-        font-size: 16px;
+        font-size: 1.1rem;
         font-family: 'Archivo', sans-serif;
         transition: ease-in-out .4s all;
     }

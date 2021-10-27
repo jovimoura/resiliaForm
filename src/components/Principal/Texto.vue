@@ -10,6 +10,9 @@
         <div id="box_texto">
             <p id="texto">
                 Quer começar de vez sua carreira na área Tech?
+                
+            </p>
+            <p id="texto">
                 Em 6 meses, você vai aprender TUDO que precisa para começar
                 a trabalhar como <b>Dev Jr com a metodologia Resilia!</b>
             </p>
@@ -51,7 +54,8 @@ export default {
     p {
         color:#707070;
         font-family: 'Archivo', sans-serif;
-        font-size: 17px;
+        font-size: 1.1rem;
+        margin:0
     }
 
     b {

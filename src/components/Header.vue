@@ -58,9 +58,10 @@ export default {
     }
 
     img {
-        width:30px;
-        height: 30px;
+        width:2rem;
+        height: 2rem;
         transition: ease-in-out .4s all;
+        margin:.1rem
     }
 
     img:hover {
