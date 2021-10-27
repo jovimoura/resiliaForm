@@ -40,6 +40,10 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200&family=Fira+Sans:wght@500&display=swap');
 
+    #cabecalho {
+        margin: 1rem;
+    }
+    
     h1 {
         font-family: 'Fira Sans', sans-serif;
         color: #ffd000;

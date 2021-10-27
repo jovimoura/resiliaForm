@@ -1,7 +1,7 @@
 <template>
     <main>
         <Texto />
-        <form action="">
+        <form action="Submit">
             <div id="boxTextual">
                 <h2 id="titulo">
                 Formação WebDev Resilia
@@ -14,15 +14,15 @@
             <div id="inputs">
                 <div id="inputs_nome">
                     <label for="nome">Nome Completo</label>
-                    <input placeholder="Nome" type="text" id="nome">
+                    <input required placeholder="Nome" type="text" id="nome">
                 </div>
                 <div id="inputs_email">
                     <label for="email">E-mail(você usará o mesmo durante todo o processo)</label>
-                    <input placeholder="E-mail" type="text" id="email">
+                    <input required placeholder="E-mail" type="text" id="email">
                 </div>
                 <div id="inputs_celular">
                     <label for="celular">Celular/WhatsApp</label>
-                    <input placeholder="Celular" type="text" id="celular">
+                    <input required placeholder="Celular" type="text" id="celular">
                 </div>
                 <div id="inputs_comoSoube">
                     <label for="comoSoube">Como Você conheceu a Resilia?</label>
@@ -76,7 +76,7 @@ export default {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 1rem;
+        padding: 2rem;
 
     }
 
@@ -97,7 +97,7 @@ export default {
         background-color: #fff;
         border: 2px solid transparent;
         border-radius: 35px;
-        box-shadow: 0px 0px 40px -4px rgb(0 0 0 / 30%);
+        box-shadow: 0px 0px 50px -4px rgb(0 0 0 / 60%);
         padding:3rem 1.8rem ;
         text-align: left;
         margin-bottom: 2rem
@@ -134,14 +134,14 @@ export default {
         
     }
 
-    input[type=text] {
+    input {
         transition: ease-in-out .4s all;
         -webkit-transition: 0.5s;
         transition: 0.5s;
         outline: none;
     }
 
-    input[type=text]:focus {
+    input:focus {
         border:2px solid #fad11d;
         background-color: #f5e396;
     }
