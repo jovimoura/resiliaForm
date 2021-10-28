@@ -5,7 +5,7 @@ Mas desta vez utilizei VueJS 3 para refazer o formulário e fiz um design respon
 
 ## Você pode ver o projeto pront neste link:😉
 
-link
+'link githubpages'
 ## Caso você queira analisar o projeto em sua maquina, siga esses passo a passo 😁
 
 <br>
@@ -13,7 +13,7 @@ link
 ### Clone o repositório😎
 
 ```
-git clone
+git clone https://github.com/jovimoura/resiliaForm
 ```
 
 ### Acesse o diretorio🤓
@@ -28,6 +28,12 @@ npm install
 ### Inicie a aplicação🤩
 ```
 npm run serve
+```
+
+### O site fica na porta:🤗
+
+```
+http://localhost:8080/
 ```
 
 ## Imagens do projeto 💻
