@@ -45,19 +45,19 @@ export default {
     }
     
     h1 {
-        font-family: 'Fira Sans', sans-serif;
         color: #ffd000;
+        font-family: 'Fira Sans', sans-serif;
     }
 
     #cabecalho {
-        display: flex;
         align-items: center;
+        display: flex;
         justify-content: space-between;
     }
 
     #navegacao {
-        display: flex;
         align-items: center;
+        display: flex;
         list-style: none;
     }
 
