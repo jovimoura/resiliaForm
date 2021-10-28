@@ -3,9 +3,6 @@
 Este é a recriação de um antigo projeto que fiz com HTML e CSS.
 Mas desta vez utilizei VueJS 3 para refazer o formulário e fiz um design responsivo para todos os tamanhos de tela.
 
-## Você pode ver o projeto pront neste link:😉
-
-'link githubpages'
 ## Caso você queira analisar o projeto em sua maquina, siga esses passo a passo 😁
 
 <br>
