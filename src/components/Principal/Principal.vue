@@ -1,7 +1,7 @@
 <template>
     <main>
         <Texto />
-        <form action="Submit">
+        <form action="" >
             <div id="boxTextual">
                 <h2 id="titulo">
                 Formação WebDev Resilia
@@ -18,11 +18,11 @@
                 </div>
                 <div id="inputs_email">
                     <label for="email">E-mail(você usará o mesmo durante todo o processo)</label>
-                    <input required placeholder="E-mail" type="text" id="email">
+                    <input required placeholder="E-mail" type="email" name="email" id="email" >
                 </div>
                 <div id="inputs_celular">
                     <label for="celular">Celular/WhatsApp</label>
-                    <input required placeholder="Celular" type="text" id="celular">
+                    <input required placeholder="Celular" type="number" id="celular">
                 </div>
                 <div id="inputs_comoSoube">
                     <label for="comoSoube">Como Você conheceu a Resilia?</label>
