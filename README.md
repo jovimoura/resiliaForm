@@ -16,7 +16,7 @@ git clone https://github.com/jovimoura/resiliaForm
 ### Acesse o diretorio🤓
 
 ```
-cd formulario
+cd <nome-do-diretorio>
 ```
 ### Instale as dependências🤠
 ```
