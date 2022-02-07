@@ -3,6 +3,12 @@
 Este é a recriação de um antigo projeto que fiz com HTML e CSS.
 Mas desta vez utilizei VueJS 3 para refazer o formulário e fiz um design responsivo para todos os tamanhos de tela.
 
+## O projeto está on-line neste link 😎:
+
+```
+https://resilia-form.vercel.app/
+```
+
 ## Caso você queira analisar o projeto em sua maquina, siga esses passo a passo 😁
 
 <br>
@@ -27,7 +33,7 @@ npm install
 npm run serve
 ```
 
-### O site fica na porta:🤗
+### O site, por padrão, fica na porta:🤗
 
 ```
 http://localhost:8080/
