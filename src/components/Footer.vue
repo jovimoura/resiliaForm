@@ -1,5 +1,5 @@
 <template>
-    <footer>Orgulhosamente feito por <a href="https://jovimoura.github.io/portfolio/" target="_blank"> João Victor Moura</a></footer>
+    <footer>Orgulhosamente feito por <a href="https://portfolio-jovimoura.vercel.app/" target="_blank"> João Victor Moura</a></footer>
 </template>
 
 <script>
